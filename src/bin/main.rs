@@ -7,7 +7,7 @@ use std::io::prelude::*;
 use std::net::TcpStream;
 use std::net::TcpListener;
 
-
+//note for foreseeing.
 
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
